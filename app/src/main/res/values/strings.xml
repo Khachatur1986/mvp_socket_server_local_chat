@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">mvp_socket_server_local_chat</string>
+    <string name="send">Send</string>
+    <string name="connect">Connect</string>
 </resources>

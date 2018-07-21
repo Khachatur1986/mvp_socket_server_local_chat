@@ -17,8 +17,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".view.viewInterfaces.impl.ChatClientActivity" />
-        <activity android:name=".view.viewInterfaces.impl.ChatServerActivity"></activity>
+        <activity android:name=".view.impl.ChatClientActivity" />
+        <activity android:name=".view.impl.ChatServerActivity"></activity>
     </application>
 
 </manifest>

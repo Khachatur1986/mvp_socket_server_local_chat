@@ -1,4 +1,4 @@
-package example.am.mvp_socket_server_local_chat.view.viewInterfaces;
+package example.am.mvp_socket_server_local_chat.view;
 
 /**
  * Created by Khach on 21-Jul-18.
