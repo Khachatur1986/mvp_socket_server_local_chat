@@ -16,4 +16,6 @@ public interface IChatClientView {
     public void error(String message);
 
     public void logout();
+
+    public void success();
 }

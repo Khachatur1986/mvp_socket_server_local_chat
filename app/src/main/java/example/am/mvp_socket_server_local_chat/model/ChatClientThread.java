@@ -36,6 +36,7 @@ public class ChatClientThread extends Thread {
 
         try {
             socket = new Socket(dstAddress, dstPort);
+            callBack.success();
 
             dataOutputStream = new DataOutputStream(socket.getOutputStream());
             dataInputStream = new DataInputStream(socket.getInputStream());

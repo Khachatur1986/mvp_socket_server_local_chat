@@ -25,6 +25,11 @@ public class ChatClientPresenter implements IChatClientPresenter {
             }
 
             @Override
+            public void success() {
+                iChatClientView.success();
+            }
+
+            @Override
             public void error(String message) {
                 iChatClientView.error(message);
             }
@@ -39,8 +44,15 @@ public class ChatClientPresenter implements IChatClientPresenter {
         this.serverPort = serverPort;
     }
 
+    public void connect() {
+        onCreate();
+    }
+
+
     public interface CallBack {
         public void printMessage(String message);
+
+        public void success();
 
         public void error(String message);
 
